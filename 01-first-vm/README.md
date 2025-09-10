@@ -1,4 +1,5 @@
 # Part 1 — Your First Virtual Machine (VM)
+- Video A — First VM (≤5 min): [assets/videoA-first-vm.mp4](assets/videoA-first-vm.mp4)
 
 **Audience:** First-time cloud users  
 **Goal:** Create a small Linux VM, connect with SSH, and run a short Python “hello cloud” script.  
