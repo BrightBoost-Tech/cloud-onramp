@@ -3,9 +3,9 @@
 ## Time-to-first-success (TTFS)
 Record median times (self or testers).
 
-- Part 1 (VM): ____
-- Part 2 (GPU): ____
-- Part 3 (K8s Job): ____
+- Part 1 (VM): _3m___
+- Part 2 (GPU): 9m_5s___
+- Part 3 (K8s Job): 3min_45s___
 
 ## Pre/Post question links
 - Part 1: [pre](), [post]()
@@ -14,4 +14,6 @@ Record median times (self or testers).
 
 Notes:
 - Count a run when the **Verify** output appears.
-- Add 1–2 qualitative notes (confusing steps, errors).
+- Part 1: tester noted confusion about `chmod 600` step.
+- Part 2: tester hit `cuda available: False` until driver installed.
+- Part 3: cluster creation took longer than expected (≈90s).
